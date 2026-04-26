@@ -1,6 +1,6 @@
 try:
     from ddgs import DDGS
-    print("Successfully imported DDGS from duckduckgo_search")
+    print("Successfully imported DDGS from ddgs")
     with DDGS() as ddgs:
         for r in ddgs.text("test", max_results=1):
             print(f"Test search result: {r}")
